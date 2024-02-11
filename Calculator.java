@@ -17,7 +17,9 @@ public class Calculator {
 
         if (operation.equals("+")) {
             System.out.println("Result: " + (firstNumber + secondNumber));
-        } 
+        } else if (operation.equals("-")) {
+            System.out.println("Result: " + (firstNumber - secondNumber));
+        }
         
     }
 
