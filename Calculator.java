@@ -10,6 +10,14 @@ public class Calculator {
         
         System.out.print("Enter the second number: ");
         double secondNumber = scanner.nextDouble(); // Accepts floating-point numbers
+
+
+        System.out.print("Choose an operation (+, -, *, /): ");
+        String operation = scanner.next();
+
+        if (operation.equals("+")) {
+            System.out.println("Result: " + (firstNumber + secondNumber));
+        } 
         
     }
 
