@@ -21,6 +21,14 @@ public class Calculator {
             System.out.println("Result: " + (firstNumber - secondNumber));
         } else if (operation.equals("*")) {
             System.out.println("Result: " + (firstNumber * secondNumber));
+        }else if (operation.equals("/")) {
+            if (secondNumber == 0) {
+                System.out.println("Error: Divide by Zero");
+            } else {
+                System.out.println("Result: " + (firstNumber / secondNumber));
+            }
+        } else {
+            System.out.println("Invalid operation selected. Please choose +, -, *, or /.");
         }
         
     }
